@@ -6,6 +6,11 @@
 }
 
 /* common */
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 section{
     position: relative;
     height: 100vh;
@@ -44,6 +49,9 @@ header{
 .navbar li a:hover{
     color: mediumaquamarine;
 }
+
+
+    
     
 
 /* main */
