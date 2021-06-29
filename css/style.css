@@ -21,24 +21,30 @@ header{
     z-index: 999;
 }
 
-nav{
+.navbar{
     float: right;
     padding: 30px;
 }
 
-nav li{
+.navbar li{
     display: inline-block;
 }
 
-nav a{
+.navbar a{
     text-decoration: none;
     padding: 10px 15px;
     background-color: white;
-    color: teal;
+    color:blue;
     border-radius: 20px;
     box-shadow: 5px 5px 5px black;
     font-size: 15px;
+    margin-left: 10px;
 }
+
+.navbar li a:hover{
+    color: mediumaquamarine;
+}
+    
 
 /* main */
 
@@ -67,4 +73,11 @@ h1{
 }
 
 #green-text{color: green;}
+
+
+
+
+
+
+
 
